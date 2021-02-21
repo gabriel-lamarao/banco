@@ -11,7 +11,7 @@ public class Conta {
 	private int id = totalDeContas;
 	private double divida;
 	
-	// Construtor Padrï¿½o
+	// Construtor Padrão
 	Conta(){
 		this.limite = 1000;
 		this.id +=1;
@@ -98,7 +98,7 @@ public class Conta {
 		System.out.println("Tipo de Conta: "+ tipo);
 		System.out.println("Numero da Conta: "+ numero);
 		System.out.println("Saldo: "+ saldo);
-		System.out.println("Limite disponï¿½vel: "+ limite +"  Divida: "+divida);
+		System.out.println("Limite disponível: "+ limite +"  Divida: "+divida);
 		System.out.println("\n");
 	}
 }
